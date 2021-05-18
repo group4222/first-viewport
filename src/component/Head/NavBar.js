@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
-import "../css/Navbar.css"
+import "../../css/Navbar.css"
 
 class NavBAr extends Component {
-      add=  "https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg"
+     
+  constructor(props){
+    super(props)
+     this.state  = {
+        add:  "https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg"
+     }
+  }
     
     render() { 
         return ( 
  
 <nav className="navbar totalnav navbar-expand-lg navbar-light ">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img src =  {this.add}  className="img" alt="logo"/></a>
+    <a className="navbar-brand" href="#"><img src =  {this.state.add}  className="img" alt="logo"/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

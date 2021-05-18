@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Head from "./component/Head"
+import Head from "./component/Head/Head"
+import Main from "./component/Main/Main"
 function App() {
   return (
-<Head/>
+   <div>
+     <Head/>
+<Main/>
+   </div>
+
   );
 }
 
