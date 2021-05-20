@@ -14,7 +14,7 @@ class Table extends Component {
 <table className="table table-hover">
   <thead>
     <tr className="td">
-      <th scope="col">#</th>
+      <th >#</th>
         <th  colspan="5">Name</th>
       <th scope="col">Price</th>
       <th scope="col">Change</th>
@@ -24,15 +24,15 @@ class Table extends Component {
   </thead>
   <tbody>
     <tr className="td">
-    <td scope="col">1</td>
-      <td scope="col" colspan="5"> <div>
+    <td >1</td>
+      <td  colspan="5"> <div>
           <img src="https://dynamic-assets.coinbase.com/e785e0181f1a23a30d9476038d9be91e9f6c63959b538eabbc51a1abc8898940383291eede695c3b8dfaa1829a9b57f5a2d0a16b0523580346c6b8fab67af14b/asset_icons/b57ac673f06a4b0338a596817eb0a50ce16e2059f327dc117744449a47915cb2.png" style={{width:"36px" , float:"left"}} className="logo" alt="bitcoin"/>
           <p>Bitcoin <span className="abb">BTC</span></p>
       </div></td>
-      <td scope="col">GHS 250,309.89</td>
-      <td scope="col" className="number">-4.7%</td>
-      <td scope="col"></td>
-      <td scope="col"><button  className="btn btn-success">Buy</button></td>
+      <td >GHS 250,309.89</td>
+      <td  className="number">-4.7%</td>
+      <td ></td>
+      <td ><button  className="btn btn-success">Buy</button></td>
     </tr>
     <tr className="td">
       <td >2</td>
@@ -42,8 +42,8 @@ class Table extends Component {
       </td>
       <td> GHS 18,804.23</td>
       <td className="number">-9.3%</td>
-      <td scope="col">Price</td>
-      <td scope="col" ><button className="btn btn-success">Buy</button></td>
+      <td >Price</td>
+      <td  ><button className="btn btn-success">Buy</button></td>
     </tr>
     <tr className="td">
      
@@ -52,7 +52,7 @@ class Table extends Component {
           <p>Bitcoin Cash <span  className="abb">BCH</span></p></td>
       <td>GHS 6,096.11</td>
       <td className="number">-7.44%</td>
-      <td scope="col">Change</td>
+      <td >Change</td>
       <td> <button className="btn btn-success">Buy</button></td>
      
     

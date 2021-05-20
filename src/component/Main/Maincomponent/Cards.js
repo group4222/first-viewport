@@ -57,7 +57,7 @@ class  Card extends Component {
 </div>
                 </a>
              
-             <div className="cardss">
+             <div className="">
              <a href="#">
                   view More >
                </a>

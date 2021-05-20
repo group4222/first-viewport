@@ -8,7 +8,8 @@
     transition-duration: 0.25s;
     transition-timing-function: ease;
     transition-delay: 0s;
-
+padding: 15px;
+border-radius: 10px;
        
     
 }
@@ -22,7 +23,7 @@
     transition: box-shadow 500ms ease 0s, opacity 500ms ease 0s, z-index 0ms ease-out 500ms;
     cursor: pointer;
     opacity: 0.9;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
     margin-top: -1px;
     display: flex;
     width: 100%;
@@ -30,15 +31,12 @@
     white-space: nowrap;
     border: none;
 }
-a:hover{
+ .cardss:hover{
     text-decoration: none;
     box-shadow:  
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
+    0 12.5px 10px rgba(0, 0, 0, 0.06)
   
 }
 
@@ -102,9 +100,9 @@ color:green}
 .Secondheading{
     margin-top: 20px;
     margin-left: 200px;
-    font-size: 5%;
+    font-size: 20px;
     color: rgb(188, 181, 181);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
 
 }
@@ -153,3 +151,112 @@ color:green}
 
     padding-right: 500px;
 }
+
+.middle {
+    margin: 80px;
+    margin-left: 400px;
+  }
+  
+  .mid {
+    margin: 30px;
+    margin-left: 100px;
+    color: rgba(17, 51, 83, 0.6);
+  }
+  
+  .des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.01em;
+    width:1000px;
+
+  }
+  
+  .h3des {
+    margin: 40px;
+  }
+  .pdes {
+    margin: 30px;
+    color: rgba(17, 51, 83, 0.6);
+  }
+  
+  .sectionA {
+    margin-bottom: 100px;
+  }
+  
+  .banner {
+    background-color: rgb(61, 61, 255);
+    color: white;
+    padding: 48px;
+
+  }
+  
+  .value {
+    font-size: 100px;
+    margin: 0px 12px 12px;
+    line-height: 48px;
+    font-size: 100px;
+    font-weight: 500;
+    padding: 2px;
+  }
+  .firstv {
+    margin-left: 300px;
+    margin-right: 50px;
+  }
+  
+  .innv {
+    margin-top: 80px;
+    color: #ffff;
+    text-align: justify;
+    margin-left: 80px;
+  }
+  
+  .bannerchildren{
+      padding: 10px;
+      margin-left: 100px;
+  }
+
+
+  .bannermain{
+      font-size: 2em;
+      font-weight: bolder;
+  }
+
+
+  .mid2{
+    margin: 80px;
+    margin-left: 400px;
+  }
+
+  .ww12{
+      margin-left: 255px;
+  }
+
+  .lines{
+      position:relative;
+      top: 25px;
+      border: 1px solid red;
+      
+
+  }
+
+
+  .jko5{
+      width: 290px;
+      margin:10px auto 10px auto;
+      margin-top: 100px;
+  }
+
+  .container-fluid1 {
+    margin-top: 40px;
+    background-color: rgb(233, 246, 255);
+    margin-bottom: 25px
+  }
+  
+  .middle1{
+    margin: 80px;
+    margin-left: 550px;
+  }

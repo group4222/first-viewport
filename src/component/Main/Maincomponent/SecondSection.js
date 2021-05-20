@@ -13,9 +13,9 @@ class Secondsection extends Component {
            </h1>
            </div>
            <div  className="Secondheading">
-           <h6>
+           <h5>
            Coinbase has a variety of features that make it the best place to start trading
-           </h6>
+           </h5>
            </div>
                 </div>
                 <div className="container-fluid secondpart">
